@@ -3,80 +3,80 @@ en:
   admin:
     welcome:
       index:
-        total_views: Total Views
-        lesson_title: Lesson title
+        total_views: Nombre de vues totales
+        lesson_title: Titre de la leçon
     paths:
       certificates_tab:
-        completed: Completed Lessons
-        status: Certificates Status
-        issued: Issued
-        pending: Pending
-        automatic: Automatically
-        canceled: Canceled
-        pdf: View as PDF
-        cancel: Cancel
-        issue: Issue
-        no_certificate: There is no certificate template created yet.
-        create_template: Create a template
+        completed: Leçons complétées
+        status: Statut du certificat
+        issued: Délivré
+        pending: En cours
+        automatic: Automatiquement
+        canceled: Annulé
+        pdf: Voir en PDF
+        cancel: Annuler
+        issue: Problème
+        no_certificate: Il n'y a pas de modèle de certificat créé à date.
+        create_template: Créer un modèle
       users_tab:
-        completed: Completed Lessons
-        details: Details
+        completed: Leçons complétées
+        details: Détails
     users:
       index:
-        banner_button: Change access policy
-        banner_title: Want to allow users to sign up by themselves?
+        banner_button: Changer la politique d'accessibilité
+        banner_title: Voulez-vous que les utilisateurs s'enregistrent eux-mêmes?
         invite:
-          button: Invite User
-          email: Email address
-          name: Name
-          title: Invite new users
+          button: Inviter utilisateurs
+          email: Adresse courriel
+          name: Nom
+          title: Inviter nouveaux utilisateurs
         sharelink:
-          button: Copy
-          title: Or share this link
+          button: Copier
+          title: Ou partager ce lien
     items:
-      completed: Completed
+      completed: Complété
     groups:
       index:
-        members: Members
-        member: Member
-        new: New group
-        edit: Edit group
-        modal_form_name: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Create a new group
+        members: Membres
+        member: Membre
+        new: Nouveau groupe
+        edit: Modifier groupe
+        modal_form_name: Nom
+        modal_form_users_label: Ajouter utilisateurs
+        modal_form_users_placeholder: Sélectionner utilisateurs
+        modal_title: Créer un nouveau groupe
       show:
         action:
-          remove: Remove from group
-        col_name: Name
-        modal_form_name_placeholder: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Update group
+          remove: Retirer du groupe
+        col_name: Nom
+        modal_form_name_placeholder: Nom
+        modal_form_users_label: Ajouter utilisateurs
+        modal_form_users_placeholder: Sélectionner utilisateurs
+        modal_title: Mettre groupe à jour
     certificate_templates:
       index:
-        issue_config: Issue Configuration
-        issued: Issued
-        manual: Manual
-        automatic: Automatic
-        template: Template
-        not_created: Not created yet
-        edit: Edit template
-        create: Create template
+        issue_config: Configuration de la livraison
+        issued: Délivré
+        manual: Manuel
+        automatic: Automatique
+        template: Modèle
+        not_created: Pas encore créé
+        edit: Modifier modèle
+        create: Créer modèle
     layouts:
       application:
-        workspace: Back to Academy
+        workspace: Retour à l'Académie
     questions:
       show:
         col:
-          attempts: Attempts
+          attempts: Essais
           correct: Correct
-          name: Name
-        completed: Completed
-        title: Title
+          name: Nom
+        completed: Complété
+        title: Titre
     plans:
       index:
-        manage: Manage your Plan
+        manage: Gérer votre plan
         lifetime: Lifetime access to
         includes: Plan includes
         current: Current Plan
