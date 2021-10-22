@@ -89,7 +89,7 @@ en:
         upgrade: Mettre à niveau votre plan
         quote: Demandez une offre
         features_included: Fonctionalités inclues dans tous les plans
-        alert_premium: Votre plan inclu deux académies. Si vous voulez créer une deuxième contactez-nous <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
+        alert_premium: Votre plan inclu deux Académies. Si vous voulez créer une deuxième Académie contactez-nous <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
         topic1: Académie privée/publique
         topic2: 'Micro-apprentissages: éditeur de cours en bouchées'
         topic3: Cours publics, restreints et privés
@@ -101,7 +101,7 @@ en:
         topic9: Certificats
         topic10: Groupes
         topic11: Multiple languages
-        topic12: Toutes les leçons au même endroit/vue des leçons
+        topic12: Toutes les leçons au même endroit/liste des leçons
         topic13: Profils utilisateurs
         topic14: Copiez la leçon
         topic15: Collaborateurs au cours
@@ -118,24 +118,24 @@ en:
         brand_instructions: 'Taille maximale: 2000 x 700 px'
         brand_logo: Logo de votre marque
         favicon_logo: Logo Favicon
-        save_logo: Sauvegarder le logo
-        save_favicon_logo: Sauvegarder le logo Favicon
+        save_logo: Enregistrez le logo
+        save_favicon_logo: Enregistrez le logo Favicon
         go_to_themes: Accédez aux paramètres du thème
       domain:
         form:
           placeholder: exemple.mondomaine.fr
-          submit: Sauvegarder votre domaine adapté
+          submit: Enregistrez votre domaine adapté
           subtext: 'Veuillez introduire votre (sous)domaine adapté sans http:// ou https://. Votre domaine sera automatiquement prévu de la sécurité SSL. Les changements au DNS peuvent prendre jusqu'à 24 heures.'
         subtitle: Choisissez un domaine adapté pour votre Académie
         text_html: "Votre Académie sera disponible comme %{url} et le <span class='font-weight-bold'>domaine adapté</span> que cous introduisez ici:"
         title: Domaine adapté
         learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Apprenez comment utiliser un domaine adapté</a>
       language:
-        submit: Sauvegarder la langue
+        submit: Enregistrez la langue
         label: Langue
         subtitle: Adaptez la langue pour toute l'Académie.
       access_policy:
-        action: Changez l'accès
+        action: Adaptez l'accès
         modal:
           form:
             open:
@@ -173,7 +173,7 @@ en:
       colors: Politique de couleurs
       colors_subtitle: Veuillez choisir la couleur principale pour votre Académoe.
       course_background: Fond pour le cours
-      course_background_image: Image de fond pour le cours
+      course_background_image: Image de fond du cours
       course_body_text_color: Couleur pour le texte du cours
       course_design: Conception du cours
       course_design_subtitle: Soustitre pour la conception du cours
@@ -184,89 +184,89 @@ en:
       name: Nom du thème
       navbar_color: Couleur principale de la bare de navigation
       navbar_text_color: Couleur du texte de la bare de navigation
-      save: Sauvegarder le nouveau thème
+      save: Enregistrez le nouveau thème
       title: Paramètres du thème
       title_color: Couleur du titre sur la page d'acceuil
   errors:
     messages:
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1 erreur a retenu cette %{resource} d'enregistrer correctement:'
+        other: "%{count} erreurs ont retenu cette %{resource} d'enregistrer correctement:"
   items:
-    update: Update Lesson
-    edit: Edit Lesson
-    delete: Delete Lesson
-    add: Add Lesson
-    create: Create Lesson
-    save: Save Lesson
-    add_question: Add Question
-    choose_file: Choose a file
+    update: Metrre à jour la leçon
+    edit: Editer la leçon
+    delete: Effacer une leçon
+    add: Rajouter une leçon
+    create: Créer une leçon
+    save: Enregister une leçon
+    add_question: Rajouter une question
+    choose_file: Sélectionnez un fichier
     item_code: Code
     file_size: "(max. 10MB)"
-    enter_tag: Enter a Tag
-    uploaded: Currently Uploaded
-    nolink_text: Don't have a link? Upload a file
+    enter_tag: Rajoutez un Tag
+    uploaded: Enregistré en ce moment
+    nolink_text: Vous n'avez pas le lien? Téléchargez un fichier
     edit_path_item_advanced:
-      choose_lesson: Choose a lesson type
-      website_description: A card for any link
-      video_description: Immersive video integration
-      pdf_description: Upload or link to a file
-      text_description: Long form text with style
-      embed_description: Embed any content you like
-      quiz_description: Giver clear options
+      choose_lesson: Sélectionnez un type de leçon
+      website_description: Lien vers un site web
+      video_description: Intégration d'une vidéo immersive
+      pdf_description: Téléchargez un fichier ou mettez un lien
+      text_description: Texte étendu
+      embed_description: Incoporez n'importe quel contenu
+      quiz_description: Proposez des options claires
     index:
-      all: All
-      reset: Reset
-      tag: Select a tag
+      all: Tout
+      reset: Réinitialiser
+      tag: Sélectionnez un tag
     myitem:
-      answer: View Answer
-      back: 'Back to:'
-      complete: Complete
-      completed: Completed
-      contents: Lessons
-      feedback: How was it?
-      feedback_text: You just completed
-      link: Visit link
-      mark_finished: Mark Finished
-      next: Next up
-      next_lesson: Continue to Next Lesson
-      start_next_lesson: Start Next Lesson
-      to_path: Return to course
+      answer: Montrez la réponse
+      back: 'Retour à:'
+      complete: Complet
+      completed: Complété
+      contents: Leçons
+      feedback: Ton évaluation?
+      feedback_text: Vous venez de compléter
+      link: Visitez le lien
+      mark_finished: Marquez terminé
+      next: La suite
+      next_lesson: Enchainez avec la leçon suivante
+      start_next_lesson: Lancez la leçon suivante
+      to_path: Retournez au cours
     new:
-      title: New Lesson
+      title: Nouvelle leçon
     new_path_item:
-      add_existing_content: Add existing lesson
-      add_items_text: Find lesson
-      add_items_title: Choose lessons to add
-      add_new_content: Add new lesson
-      add_question: Add question
-      question_text: You can add questions after creating the lesson.
+      add_existing_content: Rajoutez une leçon existante
+      add_items_text: Trouvez une leçon
+      add_items_title: Choisissez un leçon pour rajouter
+      add_new_content: Rajoutez une nouvelle leçon
+      add_question: Rajoutez une question
+      question_text: Vous pouvez rajouter des questions après la création de la leçon.
     show:
-      link: Visit link
+      link: Visitez le lien
   layouts:
     _navbar:
-      account_question: Have an account?
-      admin_settings: Admin Settings
-      create_path: Create a course
-      design: Design
-      invite_users: Invite Users
-      my_profile: My profile
-      my_settings: My settings
+      account_question: Disposez-vous déjà d'un compte?
+      admin_settings: Paramètres admin
+      create_path: Créez un cours
+      design: Conception
+      invite_users: Invitez des utilisateurs
+      my_profile: Mon profil
+      my_settings: Mes paramètres
       support: Support
-      templates: Templates
+      templates: Modèles
     _navbar_tenants:
-      account_question: Have an account?
+      account_question: Disposez-vous déjà d'un compte?
   notification_mailer:
     new_path_notification:
-      email: Email
-      sign_in: Sign In
-      workspace_name: Academy name
-      workspace_url: Academy URL
+      email: Courriel
+      sign_in: Accès
+      workspace_name: Nom de l'Académie
+      workspace_url: URL de l'Académie
   paths:
     shared:
-      choose_file: Choose a file
+      choose_file: Sélectionnez une fichier
       file_size: "(max. 10MB)"
-      item_tags_text: Enter a tag
+      item_tags_text: Rajoutez un tag
       nolink_text: Don't have a link? Upload a file
       enter_url: Enter a URL
       enter_emails: Enter emails here
