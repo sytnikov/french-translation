@@ -323,43 +323,42 @@ en:
       title: Editez la question
     _modal_path_settings:
       # Part of the strings from this page are linked to the paths/edit
-      assign_groups: Assign groups
-      assign_groups_text: You can also assign groups of learners previously created in the admin environment.
-      currently_in: You are currently in %{timezone} time
-      design_description: Design
-      design_title: Change the layout of your learner mode
-      find_learners: Find learners
-      find_groups: Find groups
-      only_assigned: Only assigned members
-      path_collaboration: Course collaboration
-      path_collaboration_text: Allow learners to add lessons to this course.
-      person_space: persons in your academy.
-        only for a certain period of time.
+      assign_groups: Assignez des groupes
+      assign_groups_text: Vous pouvez aussi assigner des groupes de participants que vous avez déjà créés dans l'environnement admin.
+      currently_in: Vous vous trouvez dans la zone de temps %{timezone}
+      design_description: Conception
+      design_title: Changez la disposition de votre mode apprentissage
+      find_learners: Trouvez des participants
+      find_groups: Trouvez des groupes
+      only_assigned: Seulement les membres attribués
+      path_collaboration: Collaboration au cours
+      path_collaboration_text: Permettez aux participants de rajouter des leçons à ce cours.
+      person_space: personnes dans votre Académie.
+        seulement pour une temps limité.
     _new_item_modal:
-      title: Add new lesson
+      title: Rajoutez une nouvelle leçon
     _path:
-      change_cover: Change Cover
-      edit_path: Edit Course
+      change_cover: Changez la couverture
+      edit_path: Editez le cours
       items:
-        one: "%{count} Lesson"
-        other: "%{count} Lessons"
-      view_path: View Course
+        one: "%{count} Leçons"
+        other: "%{count} Leçons"
+      view_path: Regarder le  cours
     _paths_list:
-      create_first_path: Create your first course
-      no_paths: There are no courses here yet.
+      create_first_path: Créez votre premier cours
+      no_paths: Il n'y a aucun cours en ce moment.
     edit:
-      add_content: Add lesson
-      all_learners: All learners
-      assign_learners: Assign learners
-      assign_learners_text: You can assign individual learners who will be able to
-        see the course and are notified about the course.
-      change_name: Change Name
-      change_timezone: Change your time zone here
-      currently_in: You are currently in
-      form_title: The form contains
-      group_path_title: Group course settings
-      noend: No end
-      notifications_text: Your learners will receive a notification about this course.
+      add_content: Rajoutez une leçon
+      all_learners: Tous les participants
+      assign_learners: Assignez des participants
+      assign_learners_text: Vous pouvez assigner des participans individuels qui pourront voir le cours et recevront des noticifactions sur le cours.
+      change_name: Changez le nom
+      change_timezone: Changez votre zone de temps
+      currently_in: Pour le moment vous ètes en
+      form_title: Ce formulaire contient
+      group_path_title: Paramètres de groupe de cours
+      noend: Sans fin
+      notifications_text: Vos participants recevront une notification pour ce cours.
       only_assigned: Only assigned members
       path_collaboration: Course collaboration
       path_collaboration_text: Allow learners to add lessons to this course.
