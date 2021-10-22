@@ -16,7 +16,7 @@ en:
         pdf: Voir en PDF
         cancel: Annuler
         issue: Problème
-        no_certificate: Il n'y a pas de modèle de certificat créé à date.
+        no_certificate: Il n'y a pas de modèle de certificat créé à cette date.
         create_template: Créer un modèle
       users_tab:
         completed: Leçons complétées
@@ -26,10 +26,10 @@ en:
         banner_button: Changer la politique d'accessibilité
         banner_title: Voulez-vous que les utilisateurs s'enregistrent eux-mêmes?
         invite:
-          button: Inviter utilisateurs
+          button: Inviter des utilisateurs
           email: Adresse courriel
           name: Nom
-          title: Inviter nouveaux utilisateurs
+          title: Inviter de nouveaux utilisateurs
         sharelink:
           button: Copier
           title: Ou partager ce lien
@@ -40,19 +40,19 @@ en:
         members: Membres
         member: Membre
         new: Nouveau groupe
-        edit: Modifier groupe
+        edit: Modifier le groupe
         modal_form_name: Nom
-        modal_form_users_label: Ajouter utilisateurs
-        modal_form_users_placeholder: Sélectionner utilisateurs
+        modal_form_users_label: Ajouter des utilisateurs
+        modal_form_users_placeholder: Sélectionner les utilisateurs
         modal_title: Créer un nouveau groupe
       show:
         action:
           remove: Retirer du groupe
         col_name: Nom
         modal_form_name_placeholder: Nom
-        modal_form_users_label: Ajouter utilisateurs
-        modal_form_users_placeholder: Sélectionner utilisateurs
-        modal_title: Mettre groupe à jour
+        modal_form_users_label: Ajouter des utilisateurs
+        modal_form_users_placeholder: Sélectionner des utilisateurs
+        modal_title: Mettre le groupe à jour
     certificate_templates:
       index:
         issue_config: Configuration de la livraison
@@ -64,7 +64,7 @@ en:
         edit: Modifier modèle
         create: Créer modèle
     layouts:
-      application:
+      application: Application
         workspace: Retour à l'Académie
     questions:
       show:
@@ -77,118 +77,116 @@ en:
     plans:
       index:
         manage: Gérer votre plan
-        lifetime: Lifetime access to
-        includes: Plan includes
-        current: Current Plan
-        unlimited: Unlimited
-        unlimited_learners: Unlimited learners
-        unlimited_creators: Unlimited creators
-        unlimited_drafts: Unlimited draft courses
-        analytics: Advanced analytics
-        features: View all features
-        upgrade: Upgrade plan
-        quote: Get a quote
-        features_included: Features included in all plans
-        alert_premium: Your plan provides two academies. If you want to create a second one, please get in touch with us through <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
-        topic1: Private/public academy
-        topic2: 'Micro-learning: bite-sized course creator'
-        topic3: Public, restricted and hidden courses
-        topic4: Quizzes
-        topic5: Custom domain
-        topic6: Email invites/link invites
-        topic7: Embed widgets
-        topic8: Custom branding
-        topic9: Certificates
-        topic10: Groups
+        lifetime: Accè à vie à
+        includes: Le plan comprend
+        current: Plan Actuel
+        unlimited: Illimité
+        unlimited_learners: Participants illimités
+        unlimited_creators: Créateurs illimités
+        unlimited_drafts: Nombre de cours en développement illimité
+        analytics: Analyses avancées
+        features: Voir toutes les options
+        upgrade: Mettre à niveau votre plan
+        quote: Demandez une offre
+        features_included: Fonctionalités inclues dans tous les plans
+        alert_premium: Votre plan inclu deux académies. Si vous voulez créer une deuxième contactez-nous <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
+        topic1: Académie privée/publique
+        topic2: 'Micro-apprentissages: éditeur de cours en bouchées'
+        topic3: Cours publics, restreints et privés
+        topic4: Quiz
+        topic5: Domaine adapté
+        topic6: Inivtations par courriel/par lien
+        topic7: Incorporer les widgets
+        topic8: Marque personnalisée
+        topic9: Certificats
+        topic10: Groupes
         topic11: Multiple languages
-        topic12: All lessons in one place/lesson view
-        topic13: User profiles
-        topic14: Clone lessons
-        topic15: Course collaborators
+        topic12: Toutes les leçons au même endroit/vue des leçons
+        topic13: Profils utilisateurs
+        topic14: Copiez la leçon
+        topic15: Collaborateurs au cours
     tenants:
       edit:
-        name: Academy name
-        name_placeholder: Enter your team or company name
-        welcome_subtitle: Secondary welcome message
-        welcome_title: Primary welcome message
-        whitelabel: White Label
-        whitelabel_checkbox: Remove 'Powered by Marble' signatures
-        design_title: Design
-        design_subtitle: Update your brand logo, background images and the colors used in your academy.
-        brand_instructions: 'Max size: 2000 x 700 px'
-        brand_logo: Brand logo
-        favicon_logo: Favicon logo
-        save_logo: Save logo
-        save_favicon_logo: Save Favicon logo
-        go_to_themes: Go to theme settings
+        name: Nom de l'Académie
+        name_placeholder: Introduisez le nom de votre équipe ou de votre entreprise
+        welcome_subtitle: Message d'acceuil secondaire
+        welcome_title: Message d'acceuil primaire
+        whitelabel: Marque blanche
+        whitelabel_checkbox: Enlevez 'Powered by Marble' de la signature
+        design_title: Conception
+        design_subtitle: Mettez à jour le logo de votre marque, les images de fond et les couleurs utilisés pour votre Académie.
+        brand_instructions: 'Taille maximale: 2000 x 700 px'
+        brand_logo: Logo de votre marque
+        favicon_logo: Logo Favicon
+        save_logo: Sauvegarder le logo
+        save_favicon_logo: Sauvegarder le logo Favicon
+        go_to_themes: Accédez aux paramètres du thème
       domain:
         form:
-          placeholder: example.yourdomain.tld
-          submit: Save custom domain
-          subtext: 'Please enter your custom (sub)domain without http:// or https://. Your domain will automatically be secured by SSL. It may take up to 24 hours for the DNS changes to be reflected.'
-        subtitle: Set a custom domain for your academy
-        text_html: "Your academy will be available on %{url} and the <span class='font-weight-bold'>custom
-          domain</span> you choose here:"
-        title: Custom Domain
-        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Learn more how to enable a custom domain</a>
+          placeholder: exemple.mondomaine.fr
+          submit: Sauvegarder votre domaine adapté
+          subtext: 'Veuillez introduire votre (sous)domaine adapté sans http:// ou https://. Votre domaine sera automatiquement prévu de la sécurité SSL. Les changements au DNS peuvent prendre jusqu'à 24 heures.'
+        subtitle: Choisissez un domaine adapté pour votre Académie
+        text_html: "Votre Académie sera disponible comme %{url} et le <span class='font-weight-bold'>domaine adapté</span> que cous introduisez ici:"
+        title: Domaine adapté
+        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Apprenez comment utiliser un domaine adapté</a>
       language:
-        submit: Save language
-        label: Language
-        subtitle: Change the language for the entire academy.
+        submit: Sauvegarder la langue
+        label: Langue
+        subtitle: Adaptez la langue pour toute l'Académie.
       access_policy:
-        action: Change access
+        action: Changez l'accès
         modal:
           form:
             open:
-              label1: Open
-              label2: Anyone with the link can register to the academy.
+              label1: Ouvert
+              label2: Chacun qui reçoit le lien peut s'enregistrer à l'Académie.
             private:
-              label1: Private
-              label2: Only people invited to the academy have access to it.
+              label1: Privé
+              label2: Seuls les gens que vous invitez ont accès à l'Académie.
             public:
               label1: Public
-              label2: Anyone with the link can view this academy and its lessons.
-          title: Change access policy
-        subtitle: Change access policy
-        text: You can change the <strong>access policy</strong> for this academy, which is currently <strong>%{value}</strong>.
-        title: Danger Zone
+              label2: Chacun qui reçoit le lien peut accéder à l'Académie et ses cours.
+          title: Changez la politique d'accès
+        subtitle: Changez la politique d'accès
+        text: Vous pouvez changer la <strong>politique d'accès</strong> pour cette Académie, qui pour l'instant est <strong>%{value}</strong>.
+        title: Zone Dangereuse
         notification:
-          open: open
-          private: private
+          open: ouverte
+          private: privée
           public: public
-          subtitle: Get notifications in Slack
-          text: When a course is published or an lesson added, MarbleBot will notify
-            you via Slack.
+          subtitle: Recevez des notifications Slack
+          text: Au moment de la publication d'un cours ou de l'ajout d'une leçon, MarbleBot vous le communiquera sur Slack.
           title: Notifications
       settings_navigation:
-        brand: "Brand"
-        domain: "Domain"
-        language: "Language"
-        access_policy: "Access Policy"
+        brand: "Marque"
+        domain: "Domaine"
+        language: "Langue"
+        access_policy: "Politique d'Accès"
     themes:
-      background_image: Background image
-      bg_instructions: 'Max size: 3000 x 1000 px'
-      brand_instructions: 'Max size: 500 x 175 px'
-      brand_logo: Brand logo
-      button_color: Buttons color
-      button_text_color: Buttons text color
-      colors: Colors
-      colors_subtitle: Please, choose the main colors of your academy.
-      course_background: Course background
-      course_background_image: Course background image
-      course_body_text_color: Course body text color
-      course_design: Course design
-      course_design_subtitle: Course design subtitle
-      delete_image: Delete image
-      go_to: Go to theme settings
+      background_image: Image de fond
+      bg_instructions: 'Taille maximale: 3000 x 1000 px'
+      brand_instructions: 'Taille maximale: 500 x 175 px'
+      brand_logo: Logo de votre marque
+      button_color: Couleur des boutons
+      button_text_color: Couleur du texte sur les boutons
+      colors: Politique de couleurs
+      colors_subtitle: Veuillez choisir la couleur principale pour votre Académoe.
+      course_background: Fond pour le cours
+      course_background_image: Image de fond pour le cours
+      course_body_text_color: Couleur pour le texte du cours
+      course_design: Conception du cours
+      course_design_subtitle: Soustitre pour la conception du cours
+      delete_image: Effacez l'image
+      go_to: Accédez aux paramètres du thème
       images: Images
-      images_subtitle: Customize the images shown in your academy.
-      name: Theme name
-      navbar_color: Main navigation bar color
-      navbar_text_color: Main navigation bar text color
-      save: Save new theme
-      title: Theme settings
-      title_color: Title color on homepage
+      images_subtitle: Adaptez les images utilisées dans votre Académie.
+      name: Nom du thème
+      navbar_color: Couleur principale de la bare de navigation
+      navbar_text_color: Couleur du texte de la bare de navigation
+      save: Sauvegarder le nouveau thème
+      title: Paramètres du thème
+      title_color: Couleur du titre sur la page d'acceuil
   errors:
     messages:
       not_saved:
