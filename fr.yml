@@ -27,7 +27,7 @@ en:
         banner_title: Voulez-vous que les utilisateurs s'enregistrent eux-mêmes?
         invite:
           button: Inviter des utilisateurs
-          email: Adresse courriel
+          email: Adresse e-mail
           name: Nom
           title: Inviter de nouveaux utilisateurs
         sharelink:
@@ -61,8 +61,8 @@ en:
         automatic: Automatique
         template: Modèle
         not_created: Pas encore créé
-        edit: Modifier modèle
-        create: Créer modèle
+        edit: Modifier le modèle
+        create: Créer le modèle
     layouts:
       application: Application
         workspace: Retour à l'Académie
@@ -77,7 +77,7 @@ en:
     plans:
       index:
         manage: Gérer votre plan
-        lifetime: Accè à vie à
+        lifetime: Accès à vie à
         includes: Le plan comprend
         current: Plan Actuel
         unlimited: Illimité
@@ -95,12 +95,12 @@ en:
         topic3: Cours publics, restreints et privés
         topic4: Quiz
         topic5: Domaine adapté
-        topic6: Inivtations par courriel/par lien
+        topic6: Invitations par e-mail/par lien
         topic7: Incorporer les widgets
         topic8: Marque personnalisée
         topic9: Certificats
         topic10: Groupes
-        topic11: Multiple languages
+        topic11: Multi-langues
         topic12: Toutes les leçons au même endroit/liste des leçons
         topic13: Profils utilisateurs
         topic14: Copiez la leçon
@@ -140,13 +140,13 @@ en:
           form:
             open:
               label1: Ouvert
-              label2: Chacun qui reçoit le lien peut s'enregistrer à l'Académie.
+              label2: Toute personne qui reçoit le lien peut s'enregistrer à l'Académie.
             private:
               label1: Privé
-              label2: Seuls les gens que vous invitez ont accès à l'Académie.
+              label2: Seuls les personnes que vous invitez ont accès à l'Académie.
             public:
               label1: Public
-              label2: Chacun qui reçoit le lien peut accéder à l'Académie et ses cours.
+              label2: Toute personne qui reçoit le lien peut accéder à l'Académie et à tous ses cours.
           title: Changez la politique d'accès
         subtitle: Changez la politique d'accès
         text: Vous pouvez changer la <strong>politique d'accès</strong> pour cette Académie, qui pour l'instant est <strong>%{value}</strong>.
@@ -258,7 +258,7 @@ en:
       account_question: Disposez-vous déjà d'un compte?
   notification_mailer:
     new_path_notification:
-      email: Courriel
+      email: Adresse e-mail
       sign_in: Accès
       workspace_name: Nom de l'Académie
       workspace_url: URL de l'Académie
@@ -267,60 +267,60 @@ en:
       choose_file: Sélectionnez une fichier
       file_size: "(max. 10MB)"
       item_tags_text: Rajoutez un tag
-      nolink_text: Don't have a link? Upload a file
-      enter_url: Enter a URL
-      enter_emails: Enter emails here
-      start_date: Start date
-      end_date: End date
-      draft: Draft
-      publish: Publish
-      previous: Previous
-      start: Start
-      resume: Resume
-      no_notifications: No notifications
+      nolink_text: Vous n'avez pas de lien? Téléchargez un fichier
+      enter_url: Enregistrez un URL
+      enter_emails: Enregistrez les adresses e-mail
+      start_date: Date de début
+      end_date: Date de fin
+      draft: En développement
+      publish: Publiez
+      previous: Précédent
+      start: Lancer
+      resume: Continuer
+      no_notifications: Pas de notifications
       notifications: Notifications
-      now_button: Now
-      privacy: Privacy
-      anyone_with_link: Anyone with link
-      anyone_with_link_text_2: Anyone on the internet can view this course.
-      restricted: Restricted
-      restricted_text: Only learners assigned can open with this course.
-      privacy_text: Set the privacy of this course.
-      public_text: Anyone in the academy can view this course.
-      available: Available
-      expired: Expired
-      edit_path: Edit Course
+      now_button: Maintenant
+      privacy: Privé
+      anyone_with_link: Chaque personne avec ce lien
+      anyone_with_link_text_2: Tout le monde sur l'internet a accès à ce cours.
+      restricted: Restreint
+      restricted_text: Seuls les participants assignés à ce cours ont accès.
+      privacy_text: Définissez l'accès à ce cours.
+      public_text: Toute personne ayant accès à l'Académie peut voir ce cours.
+      available: Disponnible
+      expired: Périmé
+      edit_path: Editer le cours
     show_settings:
-      delete_image: Delete image
-      restore_image: Restore default
+      delete_image: Effacer l'image
+      restore_image: Retour au défaut
     edit_cover_image_modal:
-      restore: Restore default
+      restore: Retour au défaut
       label:
-        banner: Cover image
-        banner_instructions: 'Max size: 3000 x 1500 px'
-      title: Change course cover image
+        banner: Image de couverture
+        banner_instructions: 'Taille maximale: 3000 x 1500 px'
+      title: Changez l'image de couverture du cours
     _edit_path_modal:
       label:
-        image: Course background image
-        image_instructions: "Max size: 3500 x 1100 px"
-        text_color: Course title color
+        image: Image de fond du cours
+        image_instructions: "Taille maximale: 3500 x 1100 px"
+        text_color: Couleur du titre du cours
     _existing_items_modal:
-      select_items: Select lessons
-      title: Add Existing Lessons
+      select_items: Selectionnez les leçons
+      title: Rajoutez des leçons existantes
     _modal_add_content:
-      add_existing_content: Add existing lesson
-      add_new_content: Add new lesson
-      choose_items: Choose lessons to add
-      find_content: Find lesson
+      add_existing_content: Rajoutez des leçons existantes
+      add_new_content: Rajoutez de nouvelles leçons
+      choose_items: Sélectionnez les leçons à rajouter
+      find_content: Trouver des leçons
     _modal_add_question:
-      add_option: Add option
-      ask_question: Ask a question...
-      title: Multiple Choice Question
+      add_option: Rajoutez une option
+      ask_question: Posez une question...
+      title: Question à choix multiples
     _modal_edit_item:
-      title: Edit lesson
+      title: Editez la leçon
     _modal_edit_question:
-      add_option: Add option
-      title: Edit question
+      add_option: Rajoutez une option
+      title: Editez la question
     _modal_path_settings:
       # Part of the strings from this page are linked to the paths/edit
       assign_groups: Assign groups
@@ -587,17 +587,17 @@ en:
     avg_satisfaction: Avg. Satisfaction
     actions: Actions
     dashboard: Dashboard
-    role: Role
+    role: Rôle
     admins: Admins
-    creator: Creator
-    creators: Creators
-    learner: Learner
-    learners: Learners
-    certificate: Certificate
-    certificates: Certificates
+    creator: Createur
+    creators: Createurs
+    learner: Participant
+    learners: Participants
+    certificate: Certificat
+    certificates: Certificats
     question: Question
     questions: Questions
-    settings: Settings
-    billing: Billing
+    settings: Paramètres
+    billing: Facturation
     integration: Integration
     integrations: Integrations
