@@ -359,11 +359,11 @@ en:
       group_path_title: Paramètres de groupe de cours
       noend: Sans fin
       notifications_text: Vos participants recevront une notification pour ce cours.
-      only_assigned: Only assigned members
-      path_collaboration: Course collaboration
-      path_collaboration_text: Allow learners to add lessons to this course.
-      person_space: persons in your academy.
-      schedule_path: Schedule a course
+      only_assigned: Seul les membres assignés
+      path_collaboration: Collaboration au cours
+      path_collaboration_text: Permettez aux participants de rajouter des leçons à ce cours.
+      person_space: personnes dans votre Académie.
+      schedule_path: Planifier un cours
       schedule_path_text_1: Courses are generally always available to your academy.
       schedule_path_text_2: With this setting, you can schedule courses to be available
         only for a certain period of time.
@@ -526,70 +526,70 @@ en:
       placeholder: your-team-url
       title: Sign in to your Academy
   global:
-    back: Back
-    cancel: Cancel
-    close: Close
-    delete: Delete
-    destroy: Destroy
-    edit: Edit
-    new: New
-    remove: Remove
-    create: Create
-    add: Add
-    share: Share
-    save: Save
-    search: Search
-    save_changes: Save changes
-    sign_in: Sign in
-    sign_up: Sign up
-    sign_out: Sign out
-    sure: Are you sure?
-    active: Active
-    inactive: Inactive
-    update: Update
-    save_pdf: Upload and save PDF file
+    back: Retour
+    cancel: Annuler
+    close: Fermer
+    delete: Effacer
+    destroy: Détruire
+    edit: Editer
+    new: Nouveau
+    remove: Enlever
+    create: Créer
+    add: Rajouter
+    share: Partager
+    save: Enregistrer
+    search: Rechercher
+    save_changes: Enregister les changements
+    sign_in: Se régistrer
+    sign_up: S'inscire
+    sign_out: Se déconnecter
+    sure: Etes-vous sur?
+    active: Actif
+    inactive: Inactif
+    update: Mise à jour
+    save_pdf: Télécharger et enregister un fichier PDF
     admin: Admin
-    name: Name
-    title: Title
+    name: Nom
+    title: Titre
     description: Description
     url: URL
-    email: E-mail
-    details: Details
-    course: Course
-    courses: Courses
-    lesson: Lesson
-    lessons: Lessons
-    user: User
-    users: Users
-    academy: Academy
-    academies: Academies
-    group: Group
-    groups: Groups
+    email: Adresse e-mail
+    details: Détails
+    course: Cours
+    courses: Cours
+    lesson: Leçon
+    lessons: Leçons
+    user: Utilisateur
+    users: Utilisateurs
+    academy: Académie
+    academies: Académies
+    group: Groupe
+    groups: Groupes
     tag: Tag
     tags: Tags
-    view: View
-    views: Views
-    in_hours: In hours
+    view: Vue
+    views: Vues
+    in_hours: En heures
     date: Date
-    "yes": "Yes"
-    "no": "No"
+    "yes": "Oui"
+    "no": "Non"
     min: min
     h: h
     s: s
-    ago: ago
-    analytics: Analytics
-    time_spent: Time Spent
-    last_seen: Last Seen
-    completed: Completed
-    completion: Completion
+    ago: depuis
+    analytics: Analyses
+    time_spent: Temps passé
+    last_seen: Vu en dernier
+    completed: Complété
+    completion: Complet
     satisfaction: Satisfaction
-    avg_satisfaction: Avg. Satisfaction
+    avg_satisfaction: Satisfaction Moyenne
     actions: Actions
-    dashboard: Dashboard
+    dashboard: Tableau de bord
     role: Rôle
     admins: Admins
-    creator: Createur
-    creators: Createurs
+    creator: Créateur
+    creators: Créateurs
     learner: Participant
     learners: Participants
     certificate: Certificat
@@ -598,5 +598,5 @@ en:
     questions: Questions
     settings: Paramètres
     billing: Facturation
-    integration: Integration
-    integrations: Integrations
+    integration: Intégration
+    integrations: Intégrations
