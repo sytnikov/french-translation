@@ -109,8 +109,8 @@ en:
       edit:
         name: Nom de l'Académie
         name_placeholder: Introduisez le nom de votre équipe ou de votre entreprise
-        welcome_subtitle: Message d'acceuil secondaire
-        welcome_title: Message d'acceuil primaire
+        welcome_subtitle: Message d'accueil secondaire
+        welcome_title: Message d'accueil primaire
         whitelabel: Marque blanche
         whitelabel_checkbox: Enlevez 'Powered by Marble' de la signature
         design_title: Conception
@@ -129,7 +129,7 @@ en:
         subtitle: Choisissez un domaine adapté pour votre Académie
         text_html: "Votre Académie sera disponible comme %{url} et le <span class='font-weight-bold'>domaine adapté</span> que cous introduisez ici:"
         title: Domaine adapté
-        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Apprenez comment utiliser un domaine adapté</a>
+        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Apprenez à utiliser un domaine adapté</a>
       language:
         submit: Enregistrez la langue
         label: Langue
@@ -171,22 +171,22 @@ en:
       button_color: Couleur des boutons
       button_text_color: Couleur du texte sur les boutons
       colors: Politique de couleurs
-      colors_subtitle: Veuillez choisir la couleur principale pour votre Académoe.
+      colors_subtitle: Veuillez choisir la couleur principale pour votre Académie.
       course_background: Fond pour le cours
       course_background_image: Image de fond du cours
       course_body_text_color: Couleur pour le texte du cours
       course_design: Conception du cours
-      course_design_subtitle: Soustitre pour la conception du cours
+      course_design_subtitle: Sous-titre pour la conception du cours
       delete_image: Effacez l'image
       go_to: Accédez aux paramètres du thème
       images: Images
       images_subtitle: Adaptez les images utilisées dans votre Académie.
       name: Nom du thème
-      navbar_color: Couleur principale de la bare de navigation
-      navbar_text_color: Couleur du texte de la bare de navigation
+      navbar_color: Couleur principale de la barre de navigation
+      navbar_text_color: Couleur du texte de la barre de navigation
       save: Enregistrez le nouveau thème
       title: Paramètres du thème
-      title_color: Couleur du titre sur la page d'acceuil
+      title_color: Couleur du titre sur la page d'accueil
   errors:
     messages:
       not_saved:
@@ -198,7 +198,7 @@ en:
     delete: Effacer une leçon
     add: Ajouter une leçon
     create: Créer une leçon
-    save: Enregister une leçon
+    save: Enregistrer une leçon
     add_question: Ajouter une question
     choose_file: Sélectionnez un fichier
     item_code: Code
@@ -211,8 +211,8 @@ en:
       website_description: Lien vers un site web
       video_description: Intégration d'une vidéo immersive
       pdf_description: Téléchargez un fichier ou mettez un lien
-      text_description: Texte long à formattage avancé
-      embed_description: Incoporez n'importe quel contenu
+      text_description: Texte long à formatage avancé
+      embed_description: Incorporez n'importe quel contenu
       quiz_description: Proposez des options claires
     index:
       all: Tout
@@ -351,10 +351,10 @@ en:
       add_content: Ajoutez une leçon
       all_learners: Tous les participants
       assign_learners: Assignez des participants
-      assign_learners_text: Vous pouvez assigner des participans individuels qui pourront voir le cours et recevront des noticifactions sur le cours.
+      assign_learners_text: Vous pouvez assigner des participants individuels qui pourront voir le cours et recevront des notifications sur le cours.
       change_name: Changez le nom
       change_timezone: Changez votre zone de temps
-      currently_in: Pour le moment vous ètes en
+      currently_in: Pour le moment vous êtes en
       form_title: Ce formulaire contient
       group_path_title: Paramètres de groupe de cours
       noend: Sans fin
@@ -365,7 +365,7 @@ en:
       person_space: personnes dans votre Académie.
       schedule_path: Planifier un cours
       schedule_path_text_1: Les cours sont typiquement toujours accessibles dans votre Académie.
-      schedule_path_text_2: Ce paramètre vous permet de planifier la disponibilité du cours pendant une plage de temps spécifique.
+      schedule_path_text_2: Ce paramètre vous permet de planifier la disponibilité du cours pendant une période de temps spécifique.
       sending_notification: Vous enverrez une notification à
       title_1: Ajouter une leçon
       title_2: Paramètre pour le groupe de cours
@@ -451,7 +451,7 @@ en:
       password_reset: Réinitialisation du mot de passe
       enter_email: Enregistrez votre adresse e-mail
       remember: Retenez mes données
-      password_text: Votre mot de passe doit contenir au moins 6 caractères (et être consitué de chiffres et de caractères spéciaux pour une sécurité avancée)
+      password_text: Votre mot de passe doit contenir au moins 6 caractères (et être constitué en partie de chiffres et de caractères spéciaux pour une sécurité poussée)
       _links:
         forgot: Mot de passe oublié?
     profiles:
@@ -475,13 +475,13 @@ en:
         title: Rejoignez %{tenant}
     mailer:
       invitation_instructions:
-        body_html: vous a invité de rejoigner l'Académie <strong>%{tenant}</strong>. Accédez maintenant pour lancer votre apprentissage!
+        body_html: vous a invité de rejoindre l'Académie <strong>%{tenant}</strong>. Accédez maintenant pour lancer votre apprentissage!
         cta: Rejoignez maintenant
         title: Rejoignez %{tenant} sur Marble
       reset_password_instructions:
         body: 'Vous nous avez signalé que vous avez oublié votre mot de passe. Si c'est vraiment le cas, clickez pour en enregistrer un nouveau:'
         cta: Choisissez un nouveau mot de passe
-        hint: "Le bouton “Choisissez un nouveau mot de passe” ne fonctionne pase?"
+        hint: "Le bouton “Choisissez un nouveau mot de passe” ne fonctionne pas?"
         hint2: 'Il suffit de copier/coller ce lien dans votre browser:'
         no_reset: Si vous ne vouliez pas réinitialiser votre mot de passe, vous pouvez ignorer cet e-mail, votre mot de passe ne changera pas.
         title: Réinitialiser votre mot de passe
@@ -490,13 +490,13 @@ en:
         submit_button: Réinitialiser mon mot de passe
         subtitle_html: Enregistrez votre nouveau mot de passe de votre compte Marble pour accéder à <strong>%{tenant}</strong>.
       new:
-        reset_link: Envoyer un lien de réinitalisation
+        reset_link: Envoyer un lien de réinitialisation
         subtitle_html: Pour réinitialiser votre mot de passe, enregistrez l'adresse e-mail que vous utilisez pour accéder à <strong>%{tenant}</strong>.
     registrations:
       new:
         terms_button: Conditions d'utilisation
-        terms_html: En continuant vous vous déclarrez d'acccord avec %{link}.
-        title: Se régistrer à %{tenant}
+        terms_html: En continuant vous déclarez votre accord avec %{link}.
+        title: Se registrer à %{tenant}
     sessions:
       new:
         title: Se connecter à %{tenant}
@@ -510,7 +510,7 @@ en:
     home:
       my_paths: Mes Cours
       other_paths: Autres Cours
-      welcome: Bienvue à l'Académie de %{tenant}
+      welcome: Soyez les bienvenus à l'Académie de %{tenant}
     signin:
       continue: Continuez
       label: Ajoutez l'URL de votre Académie
@@ -530,15 +530,15 @@ en:
     share: Partager
     save: Enregistrer
     search: Rechercher
-    save_changes: Enregister les changements
+    save_changes: Enregistrer les changements
     sign_in: Se connecter
-    sign_up: Se régistrer
+    sign_up: Se registrer
     sign_out: Se déconnecter
     sure: Etes-vous sur?
     active: Actif
     inactive: Inactif
     update: Mise à jour
-    save_pdf: Télécharger et enregister un fichier PDF
+    save_pdf: Télécharger et enregistrer un fichier PDF
     admin: Admin
     name: Nom
     title: Titre
