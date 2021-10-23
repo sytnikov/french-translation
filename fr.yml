@@ -24,7 +24,7 @@ en:
     users:
       index:
         banner_button: Changer la politique d'accessibilité
-        banner_title: Voulez-vous que les utilisateurs s'enregistrent eux-mêmes?
+        banner_title: Voulez-vous que les utilisateurs s'auto-enregistrent?
         invite:
           button: Inviter des utilisateurs
           email: Adresse e-mail
@@ -81,13 +81,13 @@ en:
         includes: Le plan comprend
         current: Plan Actuel
         unlimited: Illimité
-        unlimited_learners: Participants illimités
-        unlimited_creators: Créateurs illimités
+        unlimited_learners: Nombre d'apprenants illimité
+        unlimited_creators: Nombre de créateurs illimité
         unlimited_drafts: Nombre de cours en développement illimité
         analytics: Analyses avancées
         features: Voir toutes les options
         upgrade: Mettre à niveau votre plan
-        quote: Demandez une offre
+        quote: Demander une offre
         features_included: Fonctionalités comprises dans tous les plans
         alert_premium: Votre plan comprend deux Académies. Si vous voulez créer une deuxième Académie contactez-nous <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
         topic1: Académie privée/publique
@@ -103,39 +103,39 @@ en:
         topic11: Multi-langues
         topic12: Toutes les leçons au même endroit/liste des leçons
         topic13: Profils utilisateurs
-        topic14: Copiez la leçon
+        topic14: Copier la leçon
         topic15: Collaborateurs du cours
     tenants:
       edit:
         name: Nom de l'Académie
-        name_placeholder: Introduisez le nom de votre équipe ou de votre entreprise
+        name_placeholder: Introduire le nom de votre équipe ou de votre entreprise
         welcome_subtitle: Message d'accueil secondaire
         welcome_title: Message d'accueil primaire
         whitelabel: Marque blanche
-        whitelabel_checkbox: Enlevez 'Powered by Marble' de la signature
+        whitelabel_checkbox: Enlever 'Powered by Marble' de la signature
         design_title: Conception
-        design_subtitle: Mettez à jour le logo de votre marque, les images de fond et les couleurs utilisés pour votre Académie.
+        design_subtitle: Mettre à jour le logo de votre marque, les images de fond et les couleurs utilisés pour votre Académie.
         brand_instructions: 'Taille maximale: 2000 x 700 px'
         brand_logo: Logo de votre marque
         favicon_logo: Logo Favicon
-        save_logo: Enregistrez le logo
-        save_favicon_logo: Enregistrez le logo Favicon
-        go_to_themes: Accédez aux paramètres du thème
+        save_logo: Enregistrer le logo
+        save_favicon_logo: Enregistrer le logo Favicon
+        go_to_themes: Accéder aux paramètres du thème
       domain:
         form:
           placeholder: exemple.mondomaine.fr
-          submit: Enregistrez votre domaine adapté
+          submit: Enregistrer votre domaine adapté
           subtext: 'Veuillez introduire votre (sous)domaine adapté sans http:// ou https://. Votre domaine sera automatiquement prévu de la sécurité SSL. Les changements au DNS peuvent prendre jusqu'à 24 heures.'
-        subtitle: Choisissez un domaine adapté pour votre Académie
+        subtitle: Choisir un domaine adapté pour votre Académie
         text_html: "Votre Académie sera disponible comme %{url} et le <span class='font-weight-bold'>domaine adapté</span> que cous introduisez ici:"
         title: Domaine adapté
         learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Apprenez à utiliser un domaine adapté</a>
       language:
-        submit: Enregistrez la langue
+        submit: Enregistrer la langue
         label: Langue
-        subtitle: Adaptez la langue pour toute l'Académie.
+        subtitle: Adapter la langue pour toute l'Académie.
       access_policy:
-        action: Adaptez l'accès
+        action: Adapter l'accès
         modal:
           form:
             open:
@@ -147,15 +147,15 @@ en:
             public:
               label1: Public
               label2: Toute personne qui trouve le site peut accéder à l'Académie et à tous ses cours.
-          title: Changez la politique d'accès
-        subtitle: Changez la politique d'accès
+          title: Changer la politique d'accès
+        subtitle: Changer la politique d'accès
         text: Vous pouvez changer la <strong>politique d'accès</strong> pour cette Académie, qui pour l'instant est <strong>%{value}</strong>.
         title: Zone Dangereuse
         notification:
           open: ouverte
           private: privée
           public: public
-          subtitle: Recevez des notifications Slack
+          subtitle: Recevoir des notifications Slack
           text: Au moment de la publication d'un cours ou de l'ajout d'une leçon, MarbleBot vous le communiquera sur Slack.
           title: Notifications
       settings_navigation:
@@ -171,20 +171,20 @@ en:
       button_color: Couleur des boutons
       button_text_color: Couleur du texte sur les boutons
       colors: Politique de couleurs
-      colors_subtitle: Veuillez choisir la couleur principale pour votre Académie.
+      colors_subtitle: Choisir la couleur principale pour votre Académie.
       course_background: Fond pour le cours
       course_background_image: Image de fond du cours
       course_body_text_color: Couleur pour le texte du cours
       course_design: Conception du cours
       course_design_subtitle: Sous-titre pour la conception du cours
       delete_image: Effacez l'image
-      go_to: Accédez aux paramètres du thème
+      go_to: Accéder aux paramètres du thème
       images: Images
-      images_subtitle: Adaptez les images utilisées dans votre Académie.
+      images_subtitle: Adapter les images utilisées dans votre Académie.
       name: Nom du thème
       navbar_color: Couleur principale de la barre de navigation
       navbar_text_color: Couleur du texte de la barre de navigation
-      save: Enregistrez le nouveau thème
+      save: Enregistrer le nouveau thème
       title: Paramètres du thème
       title_color: Couleur du titre sur la page d'accueil
   errors:
@@ -200,56 +200,56 @@ en:
     create: Créer une leçon
     save: Enregistrer une leçon
     add_question: Ajouter une question
-    choose_file: Sélectionnez un fichier
+    choose_file: Sélectionner un fichier
     item_code: Code
     file_size: "(max. 10MB)"
     enter_tag: Ajouter un Tag
     uploaded: Enregistré en ce moment
-    nolink_text: Vous n'avez pas le lien? Téléchargez un fichier
+    nolink_text: Vous n'avez pas le lien? Télécharger un fichier
     edit_path_item_advanced:
-      choose_lesson: Sélectionnez un type de leçon
+      choose_lesson: Sélectionner un type de leçon
       website_description: Lien vers un site web
       video_description: Intégration d'une vidéo immersive
-      pdf_description: Téléchargez un fichier ou mettez un lien
+      pdf_description: Télécharger un fichier ou enregistrer un lien
       text_description: Texte long à formatage avancé
-      embed_description: Incorporez n'importe quel contenu
-      quiz_description: Proposez des options claires
+      embed_description: Incorporer un contenu quelconque
+      quiz_description: Proposer des options claires
     index:
       all: Tout
       reset: Réinitialiser
-      tag: Sélectionnez un tag
+      tag: Sélectionner un tag
     myitem:
-      answer: Montrez la réponse
+      answer: Montrer la réponse
       back: 'Retour à:'
       complete: Complet
       completed: Complété
       contents: Leçons
       feedback: Votre évaluation?
       feedback_text: Vous venez de compléter
-      link: Visitez le lien
-      mark_finished: Marquez terminé
+      link: Visiter le lien
+      mark_finished: Marquer terminé
       next: La suite
-      next_lesson: Enchainez avec la leçon suivante
-      start_next_lesson: Lancez la leçon suivante
-      to_path: Retournez au cours
+      next_lesson: Enchainer avec la leçon suivante
+      start_next_lesson: Lancer la leçon suivante
+      to_path: Retour au cours
     new:
       title: Nouvelle leçon
     new_path_item:
-      add_existing_content: Ajoutez une leçon existante
-      add_items_text: Trouvez une leçon
-      add_items_title: Choisissez un leçon pour rajouter
-      add_new_content: Ajoutez une nouvelle leçon
-      add_question: Ajoutez une question
+      add_existing_content: Ajouter une leçon existante
+      add_items_text: Trouver une leçon
+      add_items_title: Choisir unr leçon pour ajouter
+      add_new_content: Ajouter une nouvelle leçon
+      add_question: Ajouter une question
       question_text: Vous pouvez rajouter des questions après la création de la leçon.
     show:
-      link: Visitez le lien
+      link: Visiter le lien
   layouts:
     _navbar:
       account_question: Disposez-vous déjà d'un compte?
       admin_settings: Paramètres admin
-      create_path: Créez un cours
+      create_path: Créer un cours
       design: Conception
-      invite_users: Invitez des utilisateurs
+      invite_users: Inviter des utilisateurs
       my_profile: Mon profil
       my_settings: Mes paramètres
       support: Support
@@ -264,16 +264,16 @@ en:
       workspace_url: URL de l'Académie
   paths:
     shared:
-      choose_file: Sélectionnez une fichier
+      choose_file: Sélectionner une fichier
       file_size: "(max. 10MB)"
-      item_tags_text: Ajoutez un tag
-      nolink_text: Vous n'avez pas de lien? Téléchargez un fichier
-      enter_url: Enregistrez un URL
-      enter_emails: Enregistrez les adresses e-mail
+      item_tags_text: Ajouter un tag
+      nolink_text: Vous n'avez pas de lien? Télécharger un fichier
+      enter_url: Enregistrer une URL
+      enter_emails: Enregistrer les adresses e-mail
       start_date: Date de début
       end_date: Date de fin
       draft: En développement
-      publish: Publiez
+      publish: Publier
       previous: Précédent
       start: Lancer
       resume: Continuer
@@ -284,8 +284,8 @@ en:
       anyone_with_link: Chaque personne avec ce lien
       anyone_with_link_text_2: Tout le monde sur l'internet a accès à ce cours.
       restricted: Restreint
-      restricted_text: Seuls les participants assignés à ce cours ont accès.
-      privacy_text: Définissez l'accès à ce cours.
+      restricted_text: Seuls les participants assignés à ce cours y ont accès.
+      privacy_text: Définir l'accèssibilité de ce cours.
       public_text: Toute personne ayant accès à l'Académie peut voir ce cours.
       available: Disponible
       expired: Périmé
@@ -298,70 +298,70 @@ en:
       label:
         banner: Image de couverture
         banner_instructions: 'Taille maximale: 3000 x 1500 px'
-      title: Changez l'image de couverture du cours
+      title: Changer l'image de couverture du cours
     _edit_path_modal:
       label:
         image: Image de fond du cours
         image_instructions: "Taille maximale: 3500 x 1100 px"
         text_color: Couleur du titre du cours
     _existing_items_modal:
-      select_items: Selectionnez les leçons
-      title: Rajoutez des leçons existantes
+      select_items: Selectionner les leçons
+      title: Ajouter des leçons existantes
     _modal_add_content:
-      add_existing_content: Ajoutez des leçons existantes
-      add_new_content: Ajoutez de nouvelles leçons
-      choose_items: Sélectionnez les leçons à rajouter
-      find_content: Trouver des leçons
+      add_existing_content: Ajouter des leçons existantes
+      add_new_content: Ajouter de nouvelles leçons
+      choose_items: Sélectionner les leçons à rajouter
+      find_content: Rechercher des leçons
     _modal_add_question:
-      add_option: Ajoutez une option
-      ask_question: Posez une question...
+      add_option: Ajouter une option
+      ask_question: Poser une question...
       title: Question à choix multiples
     _modal_edit_item:
-      title: Editez la leçon
+      title: Editer la leçon
     _modal_edit_question:
-      add_option: Ajoutez une option
-      title: Editez la question
+      add_option: Ajouter une option
+      title: Editer la question
     _modal_path_settings:
       # Part of the strings from this page are linked to the paths/edit
-      assign_groups: Assignez des groupes
-      assign_groups_text: Vous pouvez aussi assigner des groupes de participants que vous avez déjà créés dans l'environnement admin.
+      assign_groups: Assigner des groupes
+      assign_groups_text: Vous pouvez aussi assigner des groupes d'apprenants que vous avez déjà créés dans l'environnement admin.
       currently_in: Vous vous trouvez dans la zone de temps %{timezone}
       design_description: Conception
-      design_title: Changez la disposition de votre mode apprentissage
-      find_learners: Trouvez des participants
-      find_groups: Trouvez des groupes
+      design_title: Changer la disposition de votre mode apprentissage
+      find_learners: Rechercher des apprenants
+      find_groups: Rechercher des groupes
       only_assigned: Seulement les membres attribués
       path_collaboration: Collaboration au cours
-      path_collaboration_text: Permettez aux participants d'ajouter des leçons à ce cours.
+      path_collaboration_text: Permettez aux apprenants d'ajouter des leçons à ce cours.
       person_space: personnes dans votre Académie.
         seulement pour un temps limité.
     _new_item_modal:
-      title: Ajoutez une nouvelle leçon
+      title: Ajouter une nouvelle leçon
     _path:
-      change_cover: Changez la couverture
-      edit_path: Editez le cours
+      change_cover: Changer la couverture
+      edit_path: Editer le cours
       items:
         one: "%{count} Leçons"
         other: "%{count} Leçons"
       view_path: Regarder le cours
     _paths_list:
-      create_first_path: Créez votre premier cours
+      create_first_path: Créer votre premier cours
       no_paths: Il n'y a aucun cours en ce moment.
     edit:
-      add_content: Ajoutez une leçon
-      all_learners: Tous les participants
-      assign_learners: Assignez des participants
-      assign_learners_text: Vous pouvez assigner des participants individuels qui pourront voir le cours et recevront des notifications sur le cours.
-      change_name: Changez le nom
+      add_content: Ajouter une leçon
+      all_learners: Tous les apprenants
+      assign_learners: Assigner des apprenants
+      assign_learners_text: Vous pouvez assigner des apprenants individuels qui pourront voir le cours et recevront des notifications sur le cours.
+      change_name: Changer le nom
       change_timezone: Changez votre zone de temps
       currently_in: Pour le moment vous êtes en
       form_title: Ce formulaire contient
       group_path_title: Paramètres de groupe de cours
       noend: Sans fin
-      notifications_text: Vos participants recevront une notification pour ce cours.
-      only_assigned: Seul les membres assignés
+      notifications_text: Vos apprenants recevront une notification pour ce cours.
+      only_assigned: Seuls les membres assignés
       path_collaboration: Collaboration au cours
-      path_collaboration_text: Permettez aux participants d'ajouter des leçons à ce cours.
+      path_collaboration_text: Permettez aux apprenants d'ajouter des leçons à ce cours.
       person_space: personnes dans votre Académie.
       schedule_path: Planifier un cours
       schedule_path_text_1: Les cours sont typiquement toujours accessibles dans votre Académie.
@@ -372,21 +372,21 @@ en:
     index:
       assigned: Assigné à moi
     review:
-      all_learners: Tous les participants
+      all_learners: Tous les apprenants
       assign_users: Assigner un utilisateur
       assign_users_text: Vous pouvez assigner un utilisateur individuel qui pourra voir le cours et qui recevra les notifications du cours.
-      change_timezone: Changez votre zone de temps ici
+      change_timezone: Modifier votre zone de temps ici
       currently_in: Vous êtes dans
-      find_learners: Trouver des participants
+      find_learners: Rechercher des apprenants
       form_title: Ce formulaire contient
-      notifications_text: Vos participants recevront une notification de ce cours.
+      notifications_text: Vos apprenants recevront une notification de ce cours.
       only_assigned: Uniquement les membres assignés
       open-ended: Ouverte
       person_space: Personnes
-      save_draft: Enregister en développement
+      save_draft: Enregistrer en développement
       schedule_path: Planifier un cours
       schedule_path_text_1: Les cours sont typiquement toujours accessibles dans votre Académie.
-      schedule_path_text_2: Ce paramètre vous permet de planifier la disponibilité du cours pendant une plage de temps spécifique.
+      schedule_path_text_2: Ce paramètre vous permet de planifier la disponibilité du cours pendant une période de temps spécifique.
       sending_notification: Vous enverrez une notification à
       title: Configurer le cours
     preview:
@@ -395,12 +395,12 @@ en:
       add_item: Ajoutez au moins une leçon
       course_details: Détails du cours
       edit: Editer
-      enter_emails: Enregistrez les e-mails ici
+      enter_emails: Enregistrer les e-mails ici
       invitations_sent: Invitations envoyées à
       invite: Inviter
-      invite_learners: Inviter les participants
-      invite_learners_text: Les participants seront invités et assignés à ce cours.
-      learners: participants.
+      invite_learners: Inviter les apprenants
+      invite_learners_text: Les apprenants seront invités et assignés à ce cours.
+      learners: apprenants.
       no_items: Il n'y a pas encore de leçons.
       path_published: Le cours a été publié avec succès.
       send_invitations: Envoyer les invitations
@@ -409,9 +409,9 @@ en:
         button: Copier
         title: Partagez ce lien
     templates:
-      create_template: Créez à partir d'un modèle
+      create_template: Créer à partir d'un modèle
       title: Modèles
-      view_original: Regardez le cours original
+      view_original: Regarder le cours original
   questions:
     shared:
       correct: Bonne réponse!
@@ -425,7 +425,7 @@ en:
       answer: Vérifier la réponse
     _question_form:
       add_option: Ajouter une option
-      ask_question: Posez une question...
+      ask_question: Poser une question...
       save_options: Enregistrer les options
     _view_question:
       title: Question du quiz
@@ -433,23 +433,23 @@ en:
       try_again: Vous pouvez réessayer!
   profiles:
     shared:
-      email: Enregistrez une adresse e-mail
+      email: Enregistrer une adresse e-mail
       locale: Langue
-      name: Enregistrez votre nom
-      position: Enregistrez votre position
+      name: Enregistrer votre nom
+      position: Enregistrer votre position
     _profile_navigation:
       overview: Aperçu
   users:
     shared:
       password: Mot de passe
       new_password: Nouveau mot de passe
-      confirm_new_password: Confirmez le nouveau mot de passe
-      confirm_password: Confirmez le mot de passe
-      enter_name: Enregistrez votre nom
-      enter_password: Enregistrez votre mot de passe
-      password_confirmation: Enregistrez votre mot de passe pour vérification
+      confirm_new_password: Confirmer le nouveau mot de passe
+      confirm_password: Confirmer le mot de passe
+      enter_name: Enregistrer votre nom
+      enter_password: Enregistrer votre mot de passe
+      password_confirmation: Enregistrer votre mot de passe pour vérification
       password_reset: Réinitialisation du mot de passe
-      enter_email: Enregistrez votre adresse e-mail
+      enter_email: Enregistrer votre adresse e-mail
       remember: Retenez mes données
       password_text: Votre mot de passe doit contenir au moins 6 caractères (et être constitué en partie de chiffres et de caractères spéciaux pour une sécurité poussée)
       _links:
@@ -470,7 +470,7 @@ en:
     invitations:
       edit:
         consent_text_html: En continuant vous vous montrez d'accord avec %{terms}.
-        submit_button: Enregistrez mon mot de passe
+        submit_button: Enregistrer mon mot de passe
         subtitle_html: Vous devrez utiliser votre adresse e-mail (<strong>%{email}</strong>) et un mot de passe pour accéder à votre Académie sur Marble.
         title: Rejoignez %{tenant}
     mailer:
@@ -480,8 +480,8 @@ en:
         title: Rejoignez %{tenant} sur Marble
       reset_password_instructions:
         body: 'Vous nous avez signalé que vous avez oublié votre mot de passe. Si c'est vraiment le cas, clickez pour en enregistrer un nouveau:'
-        cta: Choisissez un nouveau mot de passe
-        hint: "Le bouton “Choisissez un nouveau mot de passe” ne fonctionne pas?"
+        cta: Choisir un nouveau mot de passe
+        hint: "Le bouton “Choisir un nouveau mot de passe” ne fonctionne pas?"
         hint2: 'Il suffit de copier/coller ce lien dans votre browser:'
         no_reset: Si vous ne vouliez pas réinitialiser votre mot de passe, vous pouvez ignorer cet e-mail, votre mot de passe ne changera pas.
         title: Réinitialiser votre mot de passe
@@ -512,10 +512,10 @@ en:
       other_paths: Autres Cours
       welcome: Soyez les bienvenus à l'Académie de %{tenant}
     signin:
-      continue: Continuez
-      label: Ajoutez l'URL de votre Académie
+      continue: Continuer
+      label: Ajouter l'URL de votre Académie
       placeholder: url-de-votre-équipe
-      title: Connectez-vous à votre Académie
+      title: Se connecter à votre Académie
   global:
     back: Retour
     cancel: Annuler
@@ -581,8 +581,8 @@ en:
     admins: Admins
     creator: Créateur
     creators: Créateurs
-    learner: Participant
-    learners: Participants
+    learner: Apprenant
+    learners: Apprenants
     certificate: Certificat
     certificates: Certificats
     question: Question
