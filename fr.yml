@@ -819,124 +819,124 @@ fr:
     integration: Intégration
     integrations: Intégrations
     currency: Devise #translate
-    sso: "Single Sign-On" #translate
+    sso: "Authentification unique" #translate
     certificate_template: "Modèle de certificat" #translate
     hi: "Bonjour" #translate
     all_rights_reserved: "Tous droits réservés" #translate
     thanks: "Merci" #translate
     ceo_and_founder: "CEO et fondateur de Marble" #translate
   certificates: #translate
-    issue_automatic_certificate: "Congratulations, you have a new certificate! You can view and download it from your profile page."
+    issue_automatic_certificate: "Félicitations, vous avez obtenu un nouveau certificat! Vous pouvez le consulter et le télécharger à partir de votre page de profil.."
   tenants: #translate
     create:
-      recaptcha: "reCAPTCHA Authorization Failed. Please try again."
+      recaptcha: "Échec de l'autorisation par reCAPTCHA . Veuillez réessayer."
     confirmation:
-      welcome: "Welcome to Marble! Your email has been confirmed. Please log in to continue."
-      tenant_doesnt_exist: "Sorry. Tenant does not exist."
+      welcome: "Bienvenue à Marble ! Votre email a été confirmé. Veuillez vous connecter pour continuer."
+      tenant_doesnt_exist: "Désolé. Cette Académie n'existe pas."
   certificate_mailer: #translate
     send_certificate:
-      subject: "Congratulations %{user}, you've completed your %{path} course!"
-      preheader: "You've got a new certificate!"
-      congratulations_html: "We want to congratulate you on completing your <strong>%{path}</strong> course in the %{tenant}'s Academy."
-      you_can_view_html: "You can view and download your certificate on the %{href}."
-      view_certificate: "View Certificate"
-      share_html: "Finally, don't forget to <strong>share your achievement</strong> with your network!"
+      subject: "Félicitations %{user}, vous avez terminé votre cours %{path}.!"
+      preheader: "Vous avez obtenu un nouveau certificat!"
+      congratulations_html: "Nous tenons à vous féliciter d'avoir terminé votre <strong>%{path}</strong> cours dans l'Académie de %{tenant}."
+      you_can_view_html: "Vous pouvez consulter et télécharger votre certificat sur le site %{href}.."
+      view_certificate: "Visualisez votre certificat"
+      share_html: "Enfin, n'oubliez pas de <strong>partager votre réussite</strong> avec votre réseau!"
   payment_mailer: #translate
     send_payment_confirmation:
-      subject: "%{user}, your payment was confirmed!"
-      preheader: "Your payment was confirmed!"
-      subscription_paid_html: "We've just received your subscription payment for the course <strong>%{path}</strong>, which is still available on %{tenant}'s Academy."
-      track_metrics: "track your learning metrics"
-      you_can_track_html: "You can also %{href} and manage payments and subscriptions on your profile's page."
-      resume_course: "Resume course"
-      course_paid_html: "We've just received your payment for the course <strong>%{path}</strong>, which is already available on %{tenant}'s Academy."
-      start_learning: "Start learning"
+      subject: "%{user}, votre paiement a été confirmé!"
+      preheader: "Votre paiement a été confirmé!"
+      subscription_paid_html: "Nous venons de recevoir votre paiement d'abonnement pour le cours <strong>%{path}</strong>, qui est toujours disponible sur l'Académie de %{tenant}."
+      track_metrics: "suivre l'avancement de votre apprentissage"
+      you_can_track_html: "Vous pouvez également %{href} et gérer les paiements et les abonnements sur la page de votre profil."
+      resume_course: "Relancer le cours"
+      course_paid_html: "Nous venons de recevoir votre paiement pour le cours <strong>%{path}</strong>, qui est déjà disponible sur l'Académie de %{tenant}."
+      start_learning: "Lancez votre apprentissage"
     send_cancellation_confirmation:
-      canceled: "Your subscription was canceled."
-      confirmation_message_html: "This is a confirmation message of your subscription cancellation for the course <strong>%{path}</strong>."
-      you_can_still_html: "You can still %{href1}, %{href2}, and %{href3} on your profile's page."
-      href1_text: "track your learning metrics"
-      href2_text: "view and download your certificates"
-      href3_text: "manage payments and subscriptions"
+      canceled: "Votre abonnement a été annulé."
+      confirmation_message_html: "Ceci est un message de confirmation de l'annulation de votre abonnement au cours <strong>%{path}</strong>."
+      you_can_still_html: "Vous pouvez toujours utiliser %{href1}, %{href2} et %{href3} sur la page de votre profil."
+      href1_text: "suivre l'avancement de votre apprentissage"
+      href2_text: "visualiser et télécharger vos certificats"
+      href3_text: "gérer vos paiements et vos abonnements"
   plan_mailer: #translate
     reminder_3_days:
-      subject: "Your trial expires in 3 days"
+      subject: "Votre essai se termine dans 3 jours"
     reminder_last_day:
-      subject: "%{user}, we have a plan for you!"
-    hope_you_liked: "We hope you liked your experience with Marble."
-    hope_you_are_enjoying: "We hope you are enjoying your experience with us!"
-    with_marble_html: "With <strong>Marble</strong>, in a matter of minutes, you can build stylish courses packaged in your white-labeled themed academy. You can use it for marketing, customer training, onboarding, and any other educational purposes."
-    choose_plan_in_3_html: "As you are now using a trial version of the academy, you will need to <strong>choose a plan in 3 days</strong> to continue."
-    choose_plan: "Choose a plan"
-    if_any_questions: "If you have any questions, just hit reply on this email."
-    tomorrow_last_day_html: "Tomorrow is the <strong>last day of your trial period</strong>. However, if you want to continue to build amazing academies to your customers, we have a plan for your needs!"
+      subject: "%{user}, nous avons un plan pour vous!"
+    hope_you_liked: "Nous espérons que vous avez apprécié votre expérience avec Marble."
+    hope_you_are_enjoying: "Nous espérons que vous appréciez votre expérience avec nous!"
+    with_marble_html: "Avec <strong>Marble</strong>, en quelques minutes, vous pouvez créer des cours élégants dans votre propre académie dans votre propre thème en marque blanche. Vous pouvez l'utiliser pour le marketing, la formation des clients, l'onboarding, et tout autre objectif éducatif."
+    choose_plan_in_3_html: "Comme vous utilisez actuellement une version d'essai de l'académie, vous devrez <strong>choisir un plan dans 3 jours</strong> pour continuer."
+    choose_plan: "Choisissez un plan"
+    if_any_questions: "Si vous avez des questions, il suffit de répondre à cet e-mail."
+    tomorrow_last_day_html: "Demain est le <strong>dernier jour de votre période d'essai</strong>. Cependant, si vous voulez continuer à construire des académies étonnantes pour vos clients, nous avons un plan qui correspond à vos besoins!"
     acquisition:
-      subject: "Congratulations! You purchased a Marble plan."
-      congratulations: "Congratulations! You have purchased a plan from Marble. We hope our partnership will be very fruitful for your business."
-    start_using: "Build your academy!"
+      subject: "Félicitations ! Vous avez acheté un plan Marble."
+      congratulations: "Félicitations ! Vous avez acheté un plan de Marble. Nous espérons que notre partenariat sera très fructueux pour votre entreprise."
+    start_using: "Créez votre académie!"
     cancellation:
-      subject: "Your Marble plan was canceled."
-      first: "This is a confirmation message of your Marble plan cancellation."
-      feedback: "Please, let us know if we can do something to enhance your experience with us - you can anwer this email."
+      subject: "Votre plan Marble a été annulé."
+      first: "Voici votre message de confirmation de l'annulation de votre plan Marble."
+      feedback: "Faites-nous savoir ce que nous pouvons faire pour améliorer votre expérience avec nous - en répondant simplement à cet e-mail."
     renovation:
-      subject: "We've received your payment."
-      payment_received: "The payment for your plan renovation, which is being used in the %{academy} academy, is confirmed."
-    keep_using: "Go to your academy"
+      subject: "Nous avons reçu votre paiement."
+      payment_received: "Le paiement de votre plan de renouvellement, qui est utilisé dans l'académie %{academy}, est confirmé."
+    keep_using: "Rendez-vous à votre académie"
     update:
-      subject: "Your academy has just been updated."
-      confirmation: "The %{academy} academy has just been updated to the %{plan} Plan. We hope you are enjoying your experience with us."
-      anything_else: "In case you need anything else or have any doubt, please answer this email."
+      subject: "Votre académie vient d'être mise à jour."
+      confirmation: "L'académie %{academy} vient de passer au %{plan} Plan. Nous espérons que vous appréciez votre expérience avec nous."
+      anything_else: "Si vous avez besoin de quoi que ce soit ou si vous avez des doutes, veuillez répondre à cet email."
   tenant_mailer: #translate
     registration_confirmation:
-      subject: "Registration Confirmation"
+      subject: "Confirmation d'enregistrement"
     appsumo_welcome:
-      subject: "Registration Confirmation"
+      subject: "Confirmation d'enregistrement"
     welcome_message:
-      subject: "Welcome to Marble!"
+      subject: "Soyez les bienvenus à Marble!"
   certificate_templates: #translate
     validations:
-      limit_mb: "is larger than 5MB"
-      limit_px: "is larger than 1200 x 600 pixels"
+      limit_mb: "est supérieure à 5MB"
+      limit_px: "est supérieure à 1200 x 600 pixels"
   themes: #translate
     validations:
-      limit_mb: "is larger than 5MB"
-      limit_px1: "is larger than 2000 x 700 pixels"
-      limit_px2: "is larger than 3000 x 1000 pixels"
+      limit_mb: "est supérieure à 5MB"
+      limit_px1: "est supérieure à 2000 x 700 pixels"
+      limit_px2: "est supérieure à 3000 x 1000 pixels"
   payment: #translate
     currencies:
-      usd: "US dollar (USD)"
+      usd: "Dollar américain (USD)"
       eur: "Euro (EUR)"
-      aud: "Australian dollar (AUD)"
-      gbp: "British sterling (GBP)"
-      bgn: "Bulgarian lev (BGN)"
-      cad: "Canadian dollar (CAD)"
-      cny: "Chinese yuan renminbi (CNY)"
-      hrk: "Croatian kuna (HRK)"
-      czk: "Czech koruna (CZK)"
-      dkk: "Danish krone (DKK)"
-      hkd: "Hong Kong dollar (HKD)"
-      huf: "Hungarian forint (HUF)"
-      isk: "Icelandic krona (ISK)"
-      inr: "Indian rupee (INR)"
-      idr: "Indonesian rupiah (IDR)"
-      ils: "Israeli shekel (ILS)"
-      jpy: "Japanese yen (JPY)"
-      php: "Philippine peso (PHP)"
-      mxn: "Mexican Peso (MXN)"
-      myr: "Malaysian ringgit (MYR)"
-      nzd: "New Zealand dollar (NZD)"
-      nok: "Norwegian krone (NOK)"
-      ron: "Romanian leu (RON)"
-      rub: "Russian rouble (RUB)"
-      sgd: "Singapore dollar (SGD)"
-      krw: "South Korean won (KRW)"
-      sek: "Swedish krona (SEK)"
-      thb: "Thai baht (THB)"
-      try: "Turkish lira (TRY)"
-      zar: "South African rand (ZAR)"
-      brl: "Brazilian real (BRL)"
-      pln: "Polish zloty (PLN)"
-      chf: "Swiss franc (CHF)"
+      aud: "Dollar australien (AUD)"
+      gbp: "Livre sterling (GBP)"
+      bgn: "Lev bulgare (BGN)"
+      cad: "Dollar canadien(CAD)"
+      cny: "Yuan renminbi chinois(CNY)"
+      hrk: "Kuna croate (HRK)"
+      czk: "Couronne tchèque (CZK)"
+      dkk: "Couronne danoise (DKK)"
+      hkd: "Dollar de Hong Kong (HKD)"
+      huf: "Forint hongrois (HUF)"
+      isk: "Couronne islandaise (ISK)"
+      inr: "Roupie indienne (INR)"
+      idr: "Rupiah indonésienne (IDR)"
+      ils: "Shekel israélien (ILS)"
+      jpy: "Yen japonais (JPY)"
+      php: "Peso philippin (PHP)"
+      mxn: "Peso mexicain (MXN)"
+      myr: "Ringgit malaisien (MYR)"
+      nzd: "Dollar néo-zélandais (NZD)"
+      nok: "Couronne norvégienne (NOK)"
+      ron: "Leu roumain (RON)"
+      rub: "Rouble russe (RUB)"
+      sgd: "Dollar de Singapour (SGD)"
+      krw: "Won sud-coréen (KRW)"
+      sek: "Couronne suédoise (SEK)"
+      thb: "Baht thaïlandais (THB)"
+      try: "Livre turque (TRY)"
+      zar: "Rand sud-africain (ZAR)"
+      brl: "Réal brésilien (BRL)"
+      pln: "Zloty polonais (PLN)"
+      chf: "Franc suisse (CHF)"
   # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
   datetime: #translate
     datetime:
@@ -987,16 +987,16 @@ fr:
         day: Jour
         month: Mois
         year: Année
-  pending: "Pending"
-  profile_page: "profile page" #translate
-  visit_academy: "Visit Academy" #translate
+  pending: "En suspens"
+  profile_page: "page de profil" #translate
+  visit_academy: "Visitez l'Académie" #translate
   invitation_mailer: #translate
     invitation_instructions:
-      someone_invited_you: "%{sender} has invited you to use %{tenant}'s Academy. Use the button below to set up your account and get started:"
-      action_text: "Set up account"
-      welcome_aboard: "Welcome aboard"
-      if_trouble: "If you’re having trouble with the button above, copy and paste the URL below into your web browser."
-      mail_subject: "%{sender} invited you to %{tenant}'s Academy"
-      contact_support1: "Feel free to contact our"
-      contact_support2: "support team"
-      contact_support3: "if you have any technical issue. (We're lightning quick at replying.)"
+      someone_invited_you: "%{sender} vous a invité à utiliser l'Académie de %{tenant}. Utilisez le bouton ci-dessous pour créer votre compte et commencer :"
+      action_text: "Créer un compte"
+      welcome_aboard: "Bienvenue à bord"
+      if_trouble: "Si vous rencontrez des difficultés avec le bouton ci-dessus, copiez et collez l'URL ci-dessous dans votre navigateur Web.."
+      mail_subject: "%{sender} vous a invité à l'Académie de %{tenant}."
+      contact_support1: "N'hésitez pas à contacter notre"
+      contact_support2: "équipe de support"
+      contact_support3: "si vous avez un quelconque problème technique. (Nous sommes rapides comme l'éclair à répondre)."
